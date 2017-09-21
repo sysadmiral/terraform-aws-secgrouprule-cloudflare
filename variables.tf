@@ -7,7 +7,7 @@ variable "enable_http" {
   default     = false
 }
 
-variable "enable_http" {
+variable "enable_https" {
   description = "boolean to allow access from cloudflare to HTTPS origin"
   default     = false
 }
